@@ -6,22 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D98809FA1DBD0F3300C7C60F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98809F91DBD0F3300C7C60F /* AppDelegate.swift */; };
-		D98809FC1DBD0F3300C7C60F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98809FB1DBD0F3300C7C60F /* ViewController.swift */; };
-		D98809FF1DBD0F3300C7C60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98809FD1DBD0F3300C7C60F /* Main.storyboard */; };
-		D9880A011DBD0F3300C7C60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9880A001DBD0F3300C7C60F /* Assets.xcassets */; };
-		D9880A041DBD0F3300C7C60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9880A021DBD0F3300C7C60F /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		D98809F61DBD0F3300C7C60F /* VelocimetroDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelocimetroDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98809F91DBD0F3300C7C60F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D98809FB1DBD0F3300C7C60F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D98809FE1DBD0F3300C7C60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9880A001DBD0F3300C7C60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9880A031DBD0F3300C7C60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D9880A051DBD0F3300C7C60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9880A0B1DBD0F7400C7C60F /* S4PeerGradedAssignment2_VelocimetroDigital.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = S4PeerGradedAssignment2_VelocimetroDigital.playground; sourceTree = "<group>"; };
+		D9880A0C1DBD110500C7C60F /* VelocimetroDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelocimetroDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,30 +25,9 @@
 		D98809ED1DBD0F3300C7C60F = {
 			isa = PBXGroup;
 			children = (
-				D98809F81DBD0F3300C7C60F /* VelocimetroDigital */,
-				D98809F71DBD0F3300C7C60F /* Products */,
+				D9880A0C1DBD110500C7C60F /* VelocimetroDigital.app */,
+				D9880A0B1DBD0F7400C7C60F /* S4PeerGradedAssignment2_VelocimetroDigital.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		D98809F71DBD0F3300C7C60F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D98809F61DBD0F3300C7C60F /* VelocimetroDigital.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D98809F81DBD0F3300C7C60F /* VelocimetroDigital */ = {
-			isa = PBXGroup;
-			children = (
-				D98809F91DBD0F3300C7C60F /* AppDelegate.swift */,
-				D98809FB1DBD0F3300C7C60F /* ViewController.swift */,
-				D98809FD1DBD0F3300C7C60F /* Main.storyboard */,
-				D9880A001DBD0F3300C7C60F /* Assets.xcassets */,
-				D9880A021DBD0F3300C7C60F /* LaunchScreen.storyboard */,
-				D9880A051DBD0F3300C7C60F /* Info.plist */,
-			);
-			path = VelocimetroDigital;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,7 +47,7 @@
 			);
 			name = VelocimetroDigital;
 			productName = VelocimetroDigital;
-			productReference = D98809F61DBD0F3300C7C60F /* VelocimetroDigital.app */;
+			productReference = D9880A0C1DBD110500C7C60F /* VelocimetroDigital.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +74,7 @@
 				Base,
 			);
 			mainGroup = D98809ED1DBD0F3300C7C60F;
-			productRefGroup = D98809F71DBD0F3300C7C60F /* Products */;
+			productRefGroup = D98809ED1DBD0F3300C7C60F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -122,9 +88,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9880A041DBD0F3300C7C60F /* LaunchScreen.storyboard in Resources */,
-				D9880A011DBD0F3300C7C60F /* Assets.xcassets in Resources */,
-				D98809FF1DBD0F3300C7C60F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +98,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98809FC1DBD0F3300C7C60F /* ViewController.swift in Sources */,
-				D98809FA1DBD0F3300C7C60F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D98809FD1DBD0F3300C7C60F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D98809FE1DBD0F3300C7C60F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D9880A021DBD0F3300C7C60F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9880A031DBD0F3300C7C60F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D9880A061DBD0F3300C7C60F /* Debug */ = {
@@ -288,6 +230,7 @@
 				D9880A0A1DBD0F3300C7C60F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
